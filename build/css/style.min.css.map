@@ -1,0 +1,1 @@
+{"version":3,"sources":["visually-hidden.scss"],"names":[],"mappings":"AAAA,gB,CACE,iB,CACA,kB,CACA,S,CACA,U,CACA,W,CAEA,e","file":"style.min.css","sourcesContent":[".visually-hidden {\n  position: absolute;\n  clip: rect(0 0 0 0);\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n\n  overflow: hidden;\n}\n"]}
