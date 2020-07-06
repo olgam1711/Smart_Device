@@ -1,0 +1,19 @@
+.contacts__element {
+  padding: 10px;
+}
+
+.contacts__element--link {
+  color: #ffffff;
+
+  text-decoration: none;
+}
+
+.contacts__element--call {
+  padding: 14px;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}

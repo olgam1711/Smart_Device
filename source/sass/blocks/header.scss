@@ -1,11 +1,13 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
-  padding: 50px 25px;
+  padding: 25px;
 
-  background-color: #788891;
+  color: #ffffff;
+
+  background-color: #C4C4C4;
 }
 
 .header__contacts {
