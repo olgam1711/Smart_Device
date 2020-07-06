@@ -6,6 +6,7 @@
 
 .name__bold {
   margin-bottom: 5px;
+  margin-top: 5px;
 
   font-size: 25px;
   font-weight: bold;
@@ -15,4 +16,10 @@
   margin: 0;
 
   color: #788891;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .name {
+    display: none;
+  }
 }

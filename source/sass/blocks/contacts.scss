@@ -1,5 +1,6 @@
 .contacts__element {
   padding: 10px;
+  margin-right: 50px;
 }
 
 .contacts__element--link {
@@ -10,10 +11,45 @@
 
 .contacts__element--call {
   padding: 14px;
+  margin-right: 0;
 
   font-weight: bold;
   text-transform: uppercase;
 
   border: 2px solid #ffffff;
   border-radius: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contacts__element {
+    display: none;
+  }
+
+  .contacts__pic--email {
+    width: 25px;
+    height: 18px;
+    margin-right: 33px;
+  }
+
+  .contacts__pic--phone {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .contacts__element {
+    display: none;
+  }
+
+  .contacts__pic--email {
+    width: 25px;
+    height: 18px;
+    margin-right: 23px;
+  }
+
+  .contacts__pic--phone {
+    width: 22px;
+    height: 22px;
+  }
 }
