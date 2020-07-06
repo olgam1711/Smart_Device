@@ -12,10 +12,15 @@
   font-weight: bold;
 }
 
+.name__bold--footer {
+  color: #203c42;
+}
+
 .name__grey {
   margin: 0;
 
   color: #788891;
+  font-size: 12px;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

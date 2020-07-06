@@ -1,0 +1,28 @@
+.footer {
+  color: #1b2d37;
+
+  background-color: #fafafa;
+}
+
+.footer__title {
+  margin-bottom: 0;
+
+  text-align: left;
+  font-size: 15px;
+  color: #1b2d37;
+  text-transform: uppercase;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  text-transform: uppercase;
+}
