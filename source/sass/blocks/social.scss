@@ -1,0 +1,13 @@
+.social {
+  display: flex;
+
+  margin-top: 54px;
+}
+
+.social__element {
+  margin-right: 15px;
+}
+
+.social__element:last-child {
+  margin-right: 0;
+}

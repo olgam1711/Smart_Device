@@ -1,7 +1,13 @@
 .footer {
+  padding-top: 65px;
+
   color: #1b2d37;
 
   background-color: #fafafa;
+}
+
+.footer__name {
+  display: flex;
 }
 
 .footer__title {
@@ -11,6 +17,7 @@
   font-size: 15px;
   color: #1b2d37;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 .footer__top {
@@ -20,9 +27,20 @@
 }
 
 .footer__bottom {
+  position: relative;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
 
   text-transform: uppercase;
+  font-size: 13px;
+}
+
+.footer__bottom::before {
+  content: "";
+  position: absolute;
+  top: 14px;
+
+  border-top: 1px solid #626962;
 }
