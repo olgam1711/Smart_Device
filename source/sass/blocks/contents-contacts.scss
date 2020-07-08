@@ -1,0 +1,14 @@
+.contents-contacts {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  margin-bottom: 33px;
+  padding-top: 38px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contents-contacts {
+    border-top: 1px solid #626962;
+  }
+}

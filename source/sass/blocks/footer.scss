@@ -1,13 +1,9 @@
 .footer {
-  padding-top: 50px;
+  padding-top: 25px;
 
   color: #1b2d37;
 
   background-color: #fafafa;
-}
-
-.footer__name {
-  display: flex;
 }
 
 .footer__title {
@@ -35,3 +31,10 @@
   font-size: 13px;
 
   border-top: 1px solid #626962;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer__top {
+    display: block;
+  }
+}

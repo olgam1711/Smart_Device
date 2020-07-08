@@ -1,0 +1,12 @@
+.name-social__item {
+  display: flex;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .name-social {
+    display: flex;
+    justify-content: space-around;
+
+    padding-bottom: 27px;
+  }
+}

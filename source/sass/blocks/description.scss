@@ -9,10 +9,25 @@
 
 .description__list {
   padding: 0;
+  margin-right: 140px;
 
   list-style-type: none;
 }
 
 .description__list--first {
   margin-right: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .description {
+    display: block;
+  }
+
+  .description__list {
+    margin: 0;
+  }
+
+  .description__list--first {
+    margin-top: 29px;
+  }
 }
