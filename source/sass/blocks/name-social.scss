@@ -2,11 +2,24 @@
   display: flex;
 }
 
+.name-social__element--service {
+  display: none;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .name-social {
     display: flex;
     justify-content: space-around;
 
     padding-bottom: 27px;
+  }
+
+  .name-social__element--service {
+    display: block;
+
+    color: #1b2d37;
+    opacity: 0.5;
+    font-size: 13px;
+    text-transform: uppercase;
   }
 }
