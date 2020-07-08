@@ -13,13 +13,24 @@
 
     padding-bottom: 27px;
   }
+}
 
+@media (min-width: 320px) and (max-width: 1023px) {
   .name-social__element--service {
     display: block;
+
+    margin-top: 27px;
 
     color: #1b2d37;
     opacity: 0.5;
     font-size: 13px;
     text-transform: uppercase;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .name-social__item {
+    margin-left: 25%;
+    margin-right: 25%;
   }
 }

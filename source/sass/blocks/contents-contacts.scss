@@ -12,3 +12,9 @@
     border-top: 1px solid #626962;
   }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .contents-contacts {
+    display: block;
+  }
+}

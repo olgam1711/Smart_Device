@@ -1,0 +1,38 @@
+.callback__element {
+  padding: 10px;
+  margin-right: 50px;
+}
+
+.callback__element--link {
+  color: #ffffff;
+
+  text-decoration: none;
+}
+
+.callback__element--call {
+  padding: 14px;
+  margin-right: 0;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .callback__element {
+    display: none;
+  }
+
+  .callback__pic--email {
+    width: 25px;
+    height: 18px;
+    margin-right: 33px;
+  }
+
+  .callback__pic--phone {
+    width: 22px;
+    height: 22px;
+  }
+}

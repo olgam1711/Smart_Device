@@ -33,8 +33,16 @@
   border-top: 1px solid #626962;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 320px) and (max-width: 1023px) {
   .footer__top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__bottom {
     display: block;
   }
 }
