@@ -21,14 +21,14 @@
   min-width: 438px;
 
   font-size: 20px;
-  font-family: "PT Mono";
+  font-family: "PT Mono", sans-serif;
   text-align: left;
 }
 
 .promo-text__desc::before {
   position: absolute;
   content: "";
-  left: 0px;
+  left: 0;
   top: 10px;
 
   width: 45px;
@@ -48,4 +48,15 @@
 
   background-color: #00b2ff;
   border-radius: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .promo-text__title {
+    font-size: 60px;
+    line-height: 53px;
+  }
+
+  .promo-text__link {
+    padding: 14px;
+  }
 }

@@ -9,3 +9,10 @@
 .promo__img {
   padding: 100px 30px 70px 30px;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .promo__img {
+    width: 465px;
+    height: 340px;
+  }
+}
