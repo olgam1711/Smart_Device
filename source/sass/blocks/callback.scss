@@ -1,6 +1,9 @@
 .callback__element {
   padding: 10px;
   margin-right: 50px;
+
+  font-size: 16px;
+  font-family: "PT Mono";
 }
 
 .callback__element--link {
@@ -10,11 +13,12 @@
 }
 
 .callback__element--call {
-  padding: 14px;
+  padding: 14px 22px;
   margin-right: 0;
 
   font-weight: bold;
   text-transform: uppercase;
+  font-family: "Roboto Condensed";
 
   border: 2px solid #ffffff;
   border-radius: 5px;

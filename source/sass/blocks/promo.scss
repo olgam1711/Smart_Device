@@ -1,0 +1,11 @@
+.promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.promo__img {
+  padding: 100px 30px 70px 30px;
+}

@@ -5,6 +5,8 @@
 @import "blocks/title.scss";
 @import "blocks/callback.scss";
 @import "blocks/name.scss";
+@import "blocks/promo.scss";
+@import "blocks/promo-text.scss";
 @import "blocks/footer.scss";
 @import "blocks/name-social.scss";
 @import "blocks/social.scss";
@@ -24,7 +26,6 @@ body {
   font-size: 14px;
 
   letter-spacing: 0;
-  text-align: center;
   line-height: 21px;
   box-sizing: border-box;
 }

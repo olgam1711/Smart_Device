@@ -1,13 +1,17 @@
 .header {
+  color: #ffffff;
+
+  background-color: #1b2d37;
+  background-image: url("../img/bg.png");
+  background-size: 100%;
+}
+
+.header__top {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 
   padding: 25px;
-
-  color: #ffffff;
-
-  background-color: #c4c4c4;
 }
 
 .header__contacts {
