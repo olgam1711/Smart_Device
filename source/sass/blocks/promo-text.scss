@@ -50,13 +50,28 @@
   border-radius: 5px;
 }
 
+.promo-text__link--mobile {
+  display: none;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .promo-text__title {
     font-size: 60px;
-    line-height: 53px;
+    line-height: 70px;
+    letter-spacing: 0.07em;
   }
 
   .promo-text__link {
     padding: 14px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .promo-text__link--desktop {
+    display: none;
+  }
+
+  .promo-text__link--mobile {
+    display: block;
   }
 }
