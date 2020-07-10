@@ -9,7 +9,8 @@
   margin-bottom: 30px;
 
   font-weight: bold;
-  font-size: 53px;
+  font-size: 80px;
+  line-height: 94px;
   text-transform: uppercase;
 }
 
@@ -18,7 +19,7 @@
 
   margin: 0;
   padding-left: 50px;
-  min-width: 438px;
+  min-width: 378px;
 
   font-size: 20px;
   font-family: "PT Mono", sans-serif;
@@ -64,14 +65,47 @@
   .promo-text__link {
     padding: 14px;
   }
+
+  .promo-text__desc::before {
+    width: 33px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .promo-text {
+    margin-top: 100px;
+    padding-left: 20px;
+  }
+
+  .promo-text__title {
+    position: relative;
+    z-index: 1;
+
+    margin-right: 30%;
+
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .promo-text__desc {
+    min-width: 0;
+  }
+
+  .promo-text__link {
+    margin-left: 0;
+    padding-left: 40px;
+  }
+
   .promo-text__link--desktop {
     display: none;
   }
 
   .promo-text__link--mobile {
-    display: block;
+    display: inline-block;
+    padding: 16px 11px;
+  }
+
+  .promo-text__desc::before {
+    width: 33px;
   }
 }
