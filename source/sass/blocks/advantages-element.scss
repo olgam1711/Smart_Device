@@ -1,9 +1,12 @@
 .advantages-element {
-  min-width: 400px;
-  min-height: 300px;
+  width: 482px;
+  min-height: 350px;
+  padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
   margin: 30px;
+
+  color: #666666;
 
   border: 1px solid #ebebeb;
   border-left: 3px solid #00b2ff;
@@ -17,8 +20,18 @@
 }
 
 .advantages-element__text {
+  min-width: 320px;
+
   font-family: "PT Mono", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  color: #666666;
+}
+
+.advantages-element:hover,
+.advantages-element:hover .advantages-element__title,
+.advantages-element:hover .advantages-element__img {
+  color: #ffffff;
+  fill: #ffffff;
+
+  background-color: #00b2ff;
 }
