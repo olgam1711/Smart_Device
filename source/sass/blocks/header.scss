@@ -1,4 +1,6 @@
 .header {
+  padding-bottom: 50px;
+
   color: #ffffff;
 
   background-color: #1b2d37;
@@ -8,7 +10,7 @@
 
 .header__top {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   padding: 25px;
@@ -18,4 +20,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header__link {
+  margin-left: 45px;
+
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 0.5;
+
+  text-decoration: none;
+
+  transform: rotate(-90deg);
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .header__link {
+    display: none;
+  }
 }
