@@ -1,0 +1,33 @@
+.about-company__title {
+  margin-top: 0;
+  margin-bottom: 18px;
+
+  font-size: 36px;
+  line-height: 51px;
+  color: #666666;
+}
+
+.about-company__text {
+  font-family: "PT Mono", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #666666;
+}
+
+.about-company__link {
+  display: inline-block;
+  padding: 15px 40px;
+  margin-top: 15px;
+
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #00b2ff;
+
+  border: 1px solid #00b2ff;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
