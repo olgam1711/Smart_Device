@@ -22,3 +22,16 @@
     font-size: 32px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .services {
+    padding: 0;
+  }
+
+  .services__title {
+    margin: 5px;
+
+    font-size: 26px;
+    text-align: left;
+  }
+}

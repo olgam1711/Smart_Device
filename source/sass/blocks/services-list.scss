@@ -5,8 +5,14 @@
   list-style-type: none;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 320px) and (max-width: 1023px) {
   .services-list {
     display: block;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .services-list {
+    padding: 10px;
   }
 }
