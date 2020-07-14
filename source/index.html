@@ -31,7 +31,7 @@
             <img class="callback__pic callback__pic--phone" src="img/phone.png" width="16" height="16" alt="позвонить по телефону">
             <a class="callback__element callback__element--link" href="tel:+7 (495) 000 52 52">+7 (495) 000 52 52</a>
 
-            <a class="callback__element callback__element--link callback__element--call" href="#">Заказать звонок</a> <!-- вставить потом ссылку -->
+            <a class="callback__element callback__element--link callback__element--call" href="#">Заказать звонок</a> <!-- добавить попап обратной связи -->
           </div>
         </div>
 
@@ -92,7 +92,7 @@
           <img class="about__item about__item--img" src="img/2005.png" width="220" height="350" alt="картинка 2005">
 
           <div class="about__item about-company">
-            <h3 class="about-company__title">О компании</h3>
+            <h2 class="about-company__title">О компании</h2>
 
             <p class="about-company__text">Мы поставляем электронные комплектующие, производим печатные платы и предоставляем мировые технологии с 1997 года. Выполняем срочные заказы и пилотные образцы до 10 дней.</p>
 
@@ -100,6 +100,48 @@
 
             <a class="about-company__link">Подробнее</a>
           </div>
+        </section>
+
+        <section class="services">
+          <h2 class="services__title">Service Device предлагает следующие товары и услуги</h2>
+
+          <ul class="services__list services-list">
+            <li class="services-list__item production">
+              <a class="production__link">
+                <img class="production__img production__img--prod" src="img/production.png" width="270" height="420" alt="перейти в раздел Производство печатных плат">
+
+                <h3 class="production__title">Производство печатных плат</h3>
+
+                <svg class="production__svg" width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 8.5L5 4.5L1 0.5" stroke="white" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </li>
+
+            <li class="services-list__item production">
+              <a class="production__link">
+                <img class="production__img production__img--mounting" src="img/mounting.png" width="270" height="420" alt="перейти в раздел Монтаж печатных плат">
+
+                <h3 class="production__title">Монтаж печатных плат</h3>
+
+                <svg class="production__svg" width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 8.5L5 4.5L1 0.5" stroke="white" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </li>
+
+            <li class="services-list__item production">
+              <a class="production__link">
+                <img class="production__img production__img--components" src="img/components.png" width="270" height="420" alt="перейти в раздел Комплектующие для светотехники">
+
+                <h3 class="production__title">Комплектующие для светотехники</h3>
+
+                <svg class="production__svg" width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 8.5L5 4.5L1 0.5" stroke="white" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </section>
       </main>
 
@@ -144,7 +186,7 @@
           <div class="footer-top_item contents-contacts">
             <div class="footer__contents contents">
               <h3 class="footer__title">Разделы сайта</h3>
-              <div class="contents__description description">
+              <div class="contents__description description"> <!-- аккордеон в мобильной версии -->
                 <ul class="description__list description__list--first footer-menu">
                   <li class="footer-menu__item"><a>О компании</a></li>
                   <li class="footer-menu__item"><a>Продукты</a></li>

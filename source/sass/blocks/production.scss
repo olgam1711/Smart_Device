@@ -1,0 +1,63 @@
+.production {
+  position: relative;
+
+  margin-right: 20px;
+}
+
+.production:last-child {
+  margin-right: 0;
+}
+
+.production__title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  font-size: 12px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.production__img {
+  display: block;
+
+  opacity: 0.2;
+}
+
+.production__svg {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+
+  padding: 15px 20px;
+  width: 6px;
+  height: 5px;
+
+  background-color: #00b2ff;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .production {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+
+  .production__img {
+    width: 592px;
+    height: 300px;
+  }
+
+  .production__img--prod {
+    background-image: url("img/production_tablet.png");
+  }
+
+  .production__img--mounting {
+    background-image: url("img/mounting_tablet.png");
+  }
+
+  .production__img--components {
+    background-image: url("img/components_tablet.png");
+  }
+}

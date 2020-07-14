@@ -1,0 +1,24 @@
+.services {
+  padding: 95px 70px;
+
+  background-color: #1b2d37;
+}
+
+.services__title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 51px;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .services {
+    padding: 50px 18px;
+  }
+
+  .services__title {
+    padding-left: 25px;
+    text-align: left;
+    font-size: 32px;
+  }
+}
