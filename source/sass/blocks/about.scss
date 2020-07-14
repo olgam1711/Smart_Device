@@ -6,3 +6,24 @@
   padding: 0 75px;
   margin: 50px 0;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about {
+    padding: 0 30px;
+  }
+
+  .about__item--img {
+    height: 360px;
+    width: 250px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .about {
+    padding: 0 10px;
+  }
+
+  .about__item--img {
+    display: none;
+  }
+}

@@ -1,3 +1,7 @@
+.about-company {
+  max-width: 900px;
+}
+
 .about-company__title {
   margin-top: 0;
   margin-bottom: 18px;
@@ -30,4 +34,10 @@
   border: 1px solid #00b2ff;
   box-sizing: border-box;
   border-radius: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .about-company__title {
+    font-size: 28px;
+  }
 }
