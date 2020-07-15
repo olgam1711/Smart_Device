@@ -145,32 +145,31 @@
         </section>
 
         <section class="main__feedback feedback">
-          <img src="img/airplane.png" width="511" height="288" alt="раздел обратной связи">
+          <img class="feedback__img" src="img/airplane.png" width="511" height="288" alt="раздел обратной связи">
 
           <div class="feedback__form modal">
             <h2 class="modal__title">Остались вопросы? Задайте их нам!</h2>
 
             <p class="modal__text">Мы проконсультируем Вас бесплатно</p>
 
-            <form action="" method="post">
-              <div class="">
-                <input class="" type="text" name="" placeholder="Имя">
+            <form action="modal__form form" method="post">
+              <div class="form__block feedback-form">
+                <input class="feedback-form__input feedback-form__input--name" type="text" name="" placeholder="Имя">
 
-                <input class="" type="tel" name="tel" placeholder="Телефон">
+                <input class="feedback-form__input feedback-form__input--tel" type="tel" name="tel" placeholder="Телефон">
               </div>
 
-              <textarea class="" name="text" cols="10" rows="5" placeholder="Ваш вопрос"></textarea>
+              <textarea class="feedback-form__input feedback-form__input--textarea" name="text" cols="50" rows="10" placeholder="Ваш вопрос"></textarea>
 
-              <div>
-                <button class="button" type="submit">
+              <div class="feedback-form__footer">
+                <button class="feedback-form__button" type="submit">
                   Задать вопрос
                 </button>
 
-                <p>
-                  <input class="visually-hidden" id="filter-slider" type="checkbox" name="slider" checked="">
+                <p class="feedback-form__agreement">
+                  <input class="feedback-form__checkbox visually-hidden" id="filter-slider" type="checkbox" name="slider" checked="">
                   <label for="filter-slider">Я согласен на обработку персональных данных</label>
                 </p>
-
               </div>
             </form>
           </div>
