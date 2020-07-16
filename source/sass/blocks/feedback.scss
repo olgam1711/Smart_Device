@@ -11,3 +11,20 @@
 .feedback__img {
   margin: 100px;
 }
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .feedback {
+    margin: 0;
+    padding: 50px;
+  }
+
+  .feedback__img {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .feedback {
+    display: block;
+  }
+}
