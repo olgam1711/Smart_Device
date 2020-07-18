@@ -188,12 +188,12 @@
               <textarea class="feedback-form__input feedback-form__input--textarea" name="text" cols="50" rows="10" placeholder="Ваш вопрос"></textarea>
 
               <div class="feedback-form__footer">
-                <button class="feedback-form__button" type="submit">
+                <button class="feedback-form__button button button--feedback" type="submit">
                   Задать вопрос
                 </button>
 
                 <p class="feedback-form__agreement">
-                  <input class="feedback-form__checkbox visually-hidden" id="filter-slider" type="checkbox" name="slider" checked>
+                  <input class="feedback-form__checkbox checkbox visually-hidden" id="filter-slider" type="checkbox" name="slider" checked>
                   <label for="filter-slider">Я согласен на обработку персональных данных</label>
                 </p>
               </div>
@@ -281,6 +281,31 @@
           <p>Developed by wow studio</p>
         </div>
       </footer>
+
+      <section class="modal-callback feedback">
+        <h2 class="modal-callback__title">Закажите звонок</h2>
+
+        <p class="modal-callback__text">Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
+
+        <form class="modal-callback__form modal-form" method="post">
+          <input class="modal-form__input" type="text" name="feedback-name" placeholder="Имя">
+
+          <input class="modal-form__input" type="tel" name="tel" placeholder="Телефон">
+
+          <textarea class="modal-form__input" name="text" cols="50" rows="10" placeholder="Ваш вопрос"></textarea>
+
+          <div class="modal-form__submit">
+            <button class="modal-form__button button button--modal" type="submit">
+              Отправить
+            </button>
+
+            <p class="modal-form__agreement">
+              <input class="feedback-form__checkbox checkbox checkbox--modal visually-hidden" id="filter-slider" type="checkbox" name="slider" checked>
+              <label for="filter-slider">Я согласен на обработку персональных данных</label>
+            </p>
+          </div>
+        </form>
+      </section>
     </div>
   </body>
 </html>

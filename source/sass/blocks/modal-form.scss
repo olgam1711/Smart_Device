@@ -1,0 +1,23 @@
+.modal-form {
+  width: 411px;
+  margin: 0;
+}
+
+.modal-form__input {
+  width: 361px;
+  margin-bottom: 20px;
+  padding: 15px 25px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+
+.modal-form__input::placeholder {
+  color: #ffffff;
+}
+
+.modal-form__agreement {
+  position: relative;
+
+  margin-left: 25px;
+}

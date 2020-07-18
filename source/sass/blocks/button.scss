@@ -1,0 +1,19 @@
+.button {
+  padding: 10px 30px;
+
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #00b2ff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.button--modal {
+  width: 100%;
+}
+
+.button--feedback {
+  min-width: 180px;
+  margin-right: 60px;
+}

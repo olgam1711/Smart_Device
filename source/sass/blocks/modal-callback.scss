@@ -1,0 +1,22 @@
+.modal-callback {
+  position: absolute;
+  content: "";
+  top: 33px;
+  left: 25%;
+
+  display: block;
+
+  width: 490px;
+  padding: 30px 40px;
+}
+
+.modal-callback__title {
+  font-size: 28px;
+}
+
+.modal-callback__text {
+  padding-right: 60px;
+
+  font-size: 16px;
+  font-family: "PT Mono", sans-serif;
+}
