@@ -17,3 +17,9 @@
   min-width: 180px;
   margin-right: 60px;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .button--feedback {
+    min-width: 100%;
+  }
+}

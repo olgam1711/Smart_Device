@@ -38,3 +38,26 @@
     min-width: 100%;
   }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .feedback-form__input {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .feedback-form__input--name {
+    margin-right: 0;
+  }
+
+  .feedback-form__input--textarea {
+    min-width: 260px;
+  }
+
+  .feedback-form__footer {
+    display: block;
+  }
+
+  .feedback-form__agreement {
+    margin-left: 10%;
+  }
+}
