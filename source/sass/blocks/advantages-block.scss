@@ -1,11 +1,11 @@
-.advantages-blocks {
+.advantages-block {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .advantages-blocks {
+  .advantages-block {
     display: block;
   }
 }
