@@ -13,4 +13,14 @@
 
     border-top: 1px solid #626962;
   }
+
+  .contents__button {
+    width: 10px;
+    height: 10px;
+
+    background-image: url("../img/minus.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border: none;
+  }
 }
