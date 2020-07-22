@@ -7,10 +7,31 @@ var contacts = document.querySelector('.contacts')
 
 contentsButton.addEventListener('click', function (evt) {
   contents.classList.toggle('contents--closed')
-  console.log(123)
 })
 
 contactsButton.addEventListener('click', function (evt) {
   contacts.classList.toggle('contacts--closed')
-  console.log(123)
+})
+
+var callback = document.querySelector('.callback__element--call')
+var modalCallback = document.querySelector('.modal-callback')
+var modalClose = document.querySelector('.modal-callback__cross-button')
+
+callback.addEventListener('click', function (evt) {
+  evt.preventDefault()
+  modalCallback.classList.add('modal-callback--open')
+})
+
+modalClose.addEventListener('click', function (evt) {
+  evt.preventDefault()
+  modalCallback.classList.remove('modal-callback--open')
+})
+
+window.addEventListener('keydown', function (evt) {
+  if (evt.keyCode === 27) {
+    evt.preventDefault()
+    if (modalCallback.classList.contains("modal-callback--open")) {
+      modalCallback.classList.remove("modal-callback--open")
+    }
+  }
 })
