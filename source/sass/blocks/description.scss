@@ -31,3 +31,9 @@
     margin-top: 29px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .description--close {
+    display: none;
+  }
+}

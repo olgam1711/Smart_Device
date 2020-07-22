@@ -10,6 +10,8 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .contacts {
+    position: relative;
+
     padding-top: 28px;
     padding-left: 15px;
 
@@ -17,12 +19,22 @@
   }
 
   .contacts__button {
-    width: 10px;
-    height: 10px;
+    position: absolute;
+    content: "";
+    top: 45px;
+    right: 20px;
+
+    width: 30px;
+    height: 20px;
 
     background-image: url("../img/minus.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
+    background-color: transparent;
     border: none;
+  }
+
+  .contacts__button--open {
+    background-image: url("../img/plus.svg");
   }
 }

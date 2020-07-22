@@ -13,3 +13,13 @@
     margin-top: 29px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .contacts-list {
+    padding-right: 90px;
+  }
+
+  .contacts-list--close {
+    display: none;
+  }
+}
