@@ -7,10 +7,8 @@ var contacts = document.querySelector('.contacts')
 
 contentsButton.addEventListener('click', function (evt) {
   contents.classList.toggle('contents--closed')
-  console.log(123)
 })
 
 contactsButton.addEventListener('click', function (evt) {
   contacts.classList.toggle('contacts--closed')
-  console.log(123)
 })
