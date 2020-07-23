@@ -17,11 +17,39 @@ var callback = document.querySelector('.callback__element--call')
 var overlay = document.querySelector('.overlay')
 var modalClose = document.querySelector('.modal-callback__cross-button')
 var modalName = document.querySelector('[name="modal-name"]')
+var modalTel = document.querySelector('[name="modal-tel"]')
+var modalText = document.querySelector('[name="modal-text"]')
+var modalForm = document.querySelector('.modal-form')
+
+var isStorageSupport = true
+var storageName = ''
+var storageTel = ''
+var storageMessage = ''
+
+try {
+  storageName = window.localStorage.getItem('name')
+  storageTel = window.localStorage.getItem('tel')
+  storageMessage = window.localStorage.getItem('message')
+} catch (err) {
+  isStorageSupport = false
+}
 
 callback.addEventListener('click', function (evt) {
   evt.preventDefault()
   overlay.classList.add('overlay--open')
   modalName.focus()
+
+  if (storageName) {
+    modalName.value = storageName
+  }
+
+  if (storageTel) {
+    modalTel.value = storageTel
+  }
+
+  if (storageMessage) {
+    modalText.value = storageMessage
+  }
 })
 
 modalClose.addEventListener('click', function (evt) {
@@ -42,5 +70,13 @@ overlay.addEventListener('click', function (evt) {
   if (evt.target === overlay) {
     evt.preventDefault()
     overlay.classList.remove('overlay--open')
+  }
+})
+
+modalForm.addEventListener('change', function (evt) {
+  if (isStorageSupport) {
+    window.localStorage.setItem('name', modalName.value)
+    window.localStorage.setItem('tel', modalTel.value)
+    window.localStorage.setItem('message', modalText.value)
   }
 })
