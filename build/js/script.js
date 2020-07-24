@@ -23,12 +23,10 @@ var modalForm = document.querySelector('.modal-form')
 
 var isStorageSupport = true
 var storageName = ''
-var storageTel = ''
 var storageMessage = ''
 
 try {
   storageName = window.localStorage.getItem('name')
-  storageTel = window.localStorage.getItem('tel')
   storageMessage = window.localStorage.getItem('message')
 } catch (err) {
   isStorageSupport = false
