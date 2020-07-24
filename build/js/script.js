@@ -43,8 +43,8 @@ callback.addEventListener('click', function (evt) {
     modalName.value = storageName
   }
 
-  if (storageTel) {
-    modalTel.value = storageTel
+  if (window.localStorage.getItem('tel')) {
+    modalTel.value = window.localStorage.getItem('tel')
   }
 
   if (storageMessage) {
@@ -73,10 +73,28 @@ overlay.addEventListener('click', function (evt) {
   }
 })
 
-modalForm.addEventListener('change', function (evt) {
+modalForm.addEventListener('input', function (evt) {
+  if (evt.target === modalTel) {
+    modalTel.value = modalTel.value.replace(/[^0123456789+()]/g, '')
+
+    if (modalTel.value.length === 6) {
+      modalTel.value = modalTel.value + ')'
+    }
+
+    if (modalTel.value.length > 14) {
+      modalTel.value = modalTel.value.slice(0, 14)
+    }
+  }
+
   if (isStorageSupport) {
     window.localStorage.setItem('name', modalName.value)
     window.localStorage.setItem('tel', modalTel.value)
     window.localStorage.setItem('message', modalText.value)
+  }
+})
+
+modalTel.addEventListener('focus', function (evt) {
+  if (!modalTel.value) {
+    modalTel.value = '+7('
   }
 })
