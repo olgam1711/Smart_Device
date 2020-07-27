@@ -2,7 +2,7 @@
   max-width: 900px;
 }
 
-.about-company__title {
+.about-company h2 {
   margin-top: 0;
   margin-bottom: 18px;
 
@@ -11,7 +11,7 @@
   color: #666666;
 }
 
-.about-company__text {
+.about-company p {
   font-family: "PT Mono", sans-serif;
   font-size: 16px;
   line-height: 22px;
@@ -38,7 +38,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .about-company__title {
+  .about-company h2 {
     font-size: 28px;
   }
 }
