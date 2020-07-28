@@ -12,6 +12,12 @@
 
 .feedback img {
   margin: 100px;
+  padding-bottom: 50px;
+
+  background-image: url("../img/two-triangles.svg");
+  background-size: 650px;
+  background-repeat: no-repeat;
+  background-position: -365px -65px;
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
