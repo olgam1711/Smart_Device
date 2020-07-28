@@ -18,3 +18,9 @@
 .checkbox--modal + label::after {
   top: 2px;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .checkbox + label::after {
+    left: -0;
+  }
+}

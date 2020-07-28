@@ -42,14 +42,17 @@
   }
 
   .form__textarea {
-    width: 260px;
+    width: 90%;
+    min-width: 260px;
   }
 
   .form__footer {
     display: block;
   }
 
-  .form__agreement {
-    margin-left: 10%;
+  .form__agreement label {
+    display: inherit;
+    padding-left: 10%;
+    margin-top: 30px;
   }
 }
