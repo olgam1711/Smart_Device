@@ -5,9 +5,51 @@
   margin-bottom: 40px;
 }
 
+.form__footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.form__textarea {
+  min-width: 365px;
+  margin-bottom: 40px;
+  padding: 10px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+}
+
+.form__textarea::placeholder {
+  color: #ffffff;
+}
+
+.form__agreement {
+  position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .form__textarea {
+    min-width: 100%;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .form__block {
     display: block;
     margin-bottom: 0;
+  }
+
+  .form__textarea {
+    width: 260px;
+  }
+
+  .form__footer {
+    display: block;
+  }
+
+  .form__agreement {
+    margin-left: 10%;
   }
 }
