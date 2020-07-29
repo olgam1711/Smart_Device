@@ -1,13 +1,9 @@
-.callback p,
 .callback a {
   padding: 10px;
   margin-right: 50px;
 
   font-size: 16px;
   font-family: "PT Mono", sans-serif;
-}
-
-.callback a {
   color: #ffffff;
 
   text-decoration: none;
@@ -30,7 +26,6 @@
     min-width: 70px;
   }
 
-  .callback p,
   .callback a {
     display: none;
   }
