@@ -1,5 +1,5 @@
 .promo-text {
-  padding-left: 40px;
+  min-width: 765px;
 
   color: #ffffff;
 }
@@ -10,28 +10,31 @@
 
   font-weight: bold;
   font-size: 80px;
-  line-height: 94px;
+  line-height: 96px;
   text-transform: uppercase;
+  letter-spacing: -1px;
 }
 
 .promo-text p {
   position: relative;
 
   margin: 0;
-  padding-left: 50px;
+  padding-left: 99px;
+  max-width: 570px;
 
-  font-size: 20px;
+  font-size: 22px;
   font-family: "PT Mono", sans-serif;
   text-align: left;
+  letter-spacing: 1px;
 }
 
 .promo-text p::before {
   position: absolute;
   content: "";
-  left: 0;
+  left: 5px;
   top: 10px;
 
-  width: 45px;
+  width: 63px;
   height: 2px;
 
   background-image: url("../img/line.svg");
@@ -39,9 +42,9 @@
 
 .promo-text__link {
   display: inline-block;
-  padding: 16px 24px;
-  margin-top: 37px;
-  margin-left: 50px;
+  padding: 16px 34px;
+  margin-top: 67px;
+  margin-left: 103px;
   vertical-align: middle;
 
   text-transform: uppercase;

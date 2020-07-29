@@ -1,6 +1,6 @@
 .callback a {
   padding: 10px;
-  margin-right: 50px;
+  margin-left: 50px;
 
   font-size: 16px;
   font-family: "PT Mono", sans-serif;
@@ -10,15 +10,20 @@
 }
 
 .callback__element--call {
-  padding: 14px 22px;
+  padding: 10px 24px;
   margin-right: 0;
 
   font-weight: bold;
+  font-size: 13px;
   text-transform: uppercase;
   font-family: "Roboto Condensed", sans-serif;
 
   border: 2px solid #ffffff;
   border-radius: 5px;
+}
+
+.callback img {
+  margin-left: 45px;
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {

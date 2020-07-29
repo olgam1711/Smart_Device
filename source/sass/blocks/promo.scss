@@ -1,12 +1,9 @@
 .promo {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 
   overflow: hidden;
-
-  padding-bottom: 70px;
-  padding-top: 100px;
+  padding-top: 196px;
 }
 
 .promo img {
@@ -15,8 +12,7 @@
 
   background-image: url("../img/two-triangles.svg");
   background-size: 700px 700px;
-  background-position: -387px -158px;
-  padding-top: 30px;
+  background-position: -292px -158px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
