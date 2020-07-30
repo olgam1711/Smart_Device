@@ -173,34 +173,36 @@
           </div>
         </section>
 
-        <section class="main__feedback feedback container" id="scroll-ask">
-          <img src="img/airplane.png" width="511" height="288" alt="раздел обратной связи">
+        <section class="main__feedback feedback" id="scroll-ask">
+          <div class="feedback__element container">
+            <img src="img/airplane.png" width="511" height="288" alt="раздел обратной связи">
 
-          <div class="feedback__form questions">
-            <h2>Остались вопросы? Задайте их нам!</h2>
+            <div class="feedback__form questions">
+              <h2>Остались вопросы? Задайте их нам!</h2>
 
-            <p>Мы проконсультируем Вас бесплатно</p>
+              <p>Мы проконсультируем Вас бесплатно</p>
 
-            <form class="questions__form form" method="post">
-              <div class="form__block feedback-form">
-                <input class="feedback-form__input feedback-form__input--name" type="text" name="feedback-name" placeholder="Имя">
+              <form class="questions__form form" method="post">
+                <div class="form__block feedback-form">
+                  <input class="feedback-form__input feedback-form__input--name" type="text" name="feedback-name" placeholder="Имя">
 
-                <input class="feedback-form__input feedback-form__input--tel" type="tel" name="tel" placeholder="Телефон">
-              </div>
+                  <input class="feedback-form__input feedback-form__input--tel" type="tel" name="tel" placeholder="Телефон">
+                </div>
 
-              <textarea class="form__textarea" name="text" cols="50" rows="10" placeholder="Ваш вопрос"></textarea>
+                <textarea class="form__textarea" name="text" cols="50" rows="10" placeholder="Ваш вопрос"></textarea>
 
-              <div class="form__footer">
-                <button class="form__button button button--feedback" type="submit">
-                  Задать вопрос
-                </button>
+                <div class="form__footer">
+                  <button class="form__button button button--feedback" type="submit">
+                    Задать вопрос
+                  </button>
 
-                <p class="form__agreement">
-                  <input class="form__checkbox checkbox visually-hidden" id="filter-slider" type="checkbox" name="slider" checked="">
-                  <label for="filter-slider">Я согласен на обработку персональных данных</label>
-                </p>
-              </div>
-            </form>
+                  <p class="form__agreement">
+                    <input class="form__checkbox checkbox visually-hidden" id="filter-slider" type="checkbox" name="slider" checked="">
+                    <label for="filter-slider">Я согласен на обработку персональных данных</label>
+                  </p>
+                </div>
+              </form>
+            </div>
           </div>
         </section>
       </main>

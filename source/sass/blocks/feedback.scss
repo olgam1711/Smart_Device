@@ -1,23 +1,25 @@
 .feedback {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-  padding: 65px 200px 74px 150px;
+  padding: 65px 200px 64px 150px;
 
   color: #ffffff;
 
   background-color: #00b2ff;
 }
 
+.feedback__element {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .feedback img {
   padding-bottom: 50px;
-  padding-left: 60px;
+  padding-left: 110px;
 
   background-image: url("../img/two-triangles.svg");
   background-size: 636px;
   background-repeat: no-repeat;
-  background-position: -368px -41px;
+  background-position: -330px -41px;
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
