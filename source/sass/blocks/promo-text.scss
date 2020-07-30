@@ -63,17 +63,35 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .promo-text {
+    min-width: 475px;
+  }
+
   .promo-text h1 {
+    max-width: 300px;
+    margin-left: 60px;
+    margin-right: 0;
+
     font-size: 60px;
     line-height: 70px;
-    letter-spacing: 0.07em;
   }
 
   .promo-text__link {
-    padding: 14px;
+    padding: 17px;
+    margin-top: 50px;
+    margin-left: 111px;
+  }
+
+  .promo-text p {
+    padding-left: 115px;
+
+    font-size: 19px;
   }
 
   .promo-text p::before {
+    left: 65px;
+    top: 15px;
+
     width: 33px;
   }
 }
