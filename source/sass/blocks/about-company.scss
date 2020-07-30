@@ -4,9 +4,9 @@
 
 .about-company h2 {
   margin-top: 0;
-  margin-bottom: 18px;
+  margin-bottom: 21px;
 
-  font-size: 36px;
+  font-size: 31px;
   line-height: 51px;
   color: #666666;
 }
@@ -21,8 +21,8 @@
 
 .about-company__link {
   display: inline-block;
-  padding: 15px 40px;
-  margin-top: 15px;
+  padding: 13px 44px;
+  margin-top: 25px;
   vertical-align: middle;
 
   font-size: 14px;
@@ -41,11 +41,4 @@
   .about-company h2 {
     font-size: 28px;
   }
-}
-
-.advantages-about {
-  background-image: url("../img/triangle-left.svg");
-  background-size: 363px;
-  background-repeat: no-repeat;
-  background-position: -289px 795px;
 }
