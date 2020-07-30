@@ -10,8 +10,8 @@
   </head>
 
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container">
         <div class="header__top header-top">
           <div class="header__title title">
             <a><img src="img/SM_logo.png" width="52" height="52" alt="логотип Смарт Девайс"></a>
@@ -47,10 +47,11 @@
         </div>
 
         <a class="header__link" href="#scroll-advance">Скролл вниз</a>
-      </header>
+      </div>
+    </header>
 
       <main class="main">
-        <div class="main__element advantages-about">
+        <div class="main__element advantages-about container">
           <section class="main__advantages advantages" id="scroll-advance">
             <ul class="advantages__item advantages-block">
               <li>
@@ -129,48 +130,50 @@
         </div>
 
         <section class="main__services services">
-          <h2>Service Device предлагает следующие товары и услуги</h2>
+          <div class="container">
+            <h2>Service Device предлагает следующие товары и услуги</h2>
 
-          <ul class="services__list services-list">
-            <li class="services-list__item production">
-              <a class="production__link">
-                <img src="img/production.png" width="270" height="420" alt="перейти в раздел Производство печатных плат">
+            <ul class="services__list services-list">
+              <li class="services-list__item production">
+                <a class="production__link">
+                  <img src="img/production.png" width="270" height="420" alt="перейти в раздел Производство печатных плат">
 
-                <h3>Производство печатных плат</h3>
+                  <h3>Производство печатных плат</h3>
 
-                <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 8.5L5 4.5L1 0.5" stroke="white" stroke-linejoin="round"/>
-                </svg>
-              </a>
-            </li>
+                  <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 8.5L5 4.5L1 0.5" stroke="white" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </li>
 
-            <li class="services-list__item production">
-              <a class="production__link">
-                <img src="img/mounting.png" width="270" height="420" alt="перейти в раздел Монтаж печатных плат">
+              <li class="services-list__item production">
+                <a class="production__link">
+                  <img src="img/mounting.png" width="270" height="420" alt="перейти в раздел Монтаж печатных плат">
 
-                <h3>Монтаж печатных плат</h3>
+                  <h3>Монтаж печатных плат</h3>
 
-                <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 8.5L5 4.5L1 0.5" stroke="white" stroke-linejoin="round"/>
-                </svg>
-              </a>
-            </li>
+                  <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 8.5L5 4.5L1 0.5" stroke="white" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </li>
 
-            <li class="services-list__item production">
-              <a class="production__link">
-                <img src="img/components.png" width="270" height="420" alt="перейти в раздел Комплектующие для светотехники">
+              <li class="services-list__item production">
+                <a class="production__link">
+                  <img src="img/components.png" width="270" height="420" alt="перейти в раздел Комплектующие для светотехники">
 
-                <h3>Комплектующие для светотехники</h3>
+                  <h3>Комплектующие для светотехники</h3>
 
-                <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 8.5L5 4.5L1 0.5" stroke="white" stroke-linejoin="round"/>
-                </svg>
-              </a>
-            </li>
-          </ul>
+                  <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 8.5L5 4.5L1 0.5" stroke="white" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
 
-        <section class="main__feedback feedback" id="scroll-ask">
+        <section class="main__feedback feedback container" id="scroll-ask">
           <img src="img/airplane.png" width="511" height="288" alt="раздел обратной связи">
 
           <div class="feedback__form questions">
@@ -203,7 +206,7 @@
       </main>
 
       <footer class="footer">
-        <div class="footer__top footer-top">
+        <div class="footer__top footer-top container">
           <div class="footer-top__tablet name-social">
             <div class="footer__name name-social__item">
               <img src="img/SM_logo.png" width="52" height="52" alt="логотип Смарт Девайс">
@@ -282,12 +285,14 @@
         </div>
 
         <div class="footer__bottom rights">
-          <div class="rights__credits credits">
-            <p class="credits__element credits__element--copyright">Все права защищены</p>
-            <p class="credits__element credits__element--service">1999-2018 SD Service Device</p>
+          <div class="rights__element container">
+            <div class="rights__credits credits">
+              <p class="credits__element credits__element--copyright">Все права защищены</p>
+              <p class="credits__element credits__element--service">1999-2018 SD Service Device</p>
+            </div>
+            <a class="rights__link" href="#">Условия конфиденциальности</a>
+            <p>Developed by wow studio</p>
           </div>
-          <a class="rights__link" href="#">Условия конфиденциальности</a>
-          <p>Developed by wow studio</p>
         </div>
       </footer>
 
@@ -324,7 +329,6 @@
           </form>
         </section>
       </div>
-    </div>
 
     <script src="../js/script.js"></script>
   </body>
