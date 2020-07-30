@@ -1,5 +1,6 @@
 .promo-text {
   min-width: 765px;
+  padding-top: 43px;
 
   color: #ffffff;
 }
@@ -26,6 +27,7 @@
   font-family: "PT Mono", sans-serif;
   text-align: left;
   letter-spacing: 1px;
+  line-height: 30px;
 }
 
 .promo-text p::before {
@@ -43,8 +45,8 @@
 .promo-text__link {
   display: inline-block;
   padding: 16px 34px;
-  margin-top: 67px;
-  margin-left: 103px;
+  margin-top: 47px;
+  margin-left: 100px;
   vertical-align: middle;
 
   text-transform: uppercase;
