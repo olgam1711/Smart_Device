@@ -3,7 +3,7 @@
   justify-content: space-around;
   align-items: center;
 
-  padding: 90px 300px 90px 190px;
+  padding: 65px 200px 74px 150px;
 
   color: #ffffff;
 
@@ -11,13 +11,13 @@
 }
 
 .feedback img {
-  margin: 100px;
   padding-bottom: 50px;
+  padding-left: 60px;
 
   background-image: url("../img/two-triangles.svg");
-  background-size: 650px;
+  background-size: 636px;
   background-repeat: no-repeat;
-  background-position: -365px -65px;
+  background-position: -368px -41px;
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {

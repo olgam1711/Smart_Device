@@ -6,11 +6,12 @@
 }
 
 .feedback-form__input::placeholder {
+  font-size: 16px;
   color: #ffffff;
 }
 
 .feedback-form__input--name {
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
