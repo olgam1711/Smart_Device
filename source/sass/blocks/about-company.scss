@@ -37,6 +37,21 @@
   border-radius: 5px;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-company {
+    max-width: 600px;
+    margin-left: -15px;
+  }
+
+  .about-company__link {
+    margin-top: 7px;
+  }
+
+  .about-company h2 {
+    font-size: 28px;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .about-company h2 {
     font-size: 28px;

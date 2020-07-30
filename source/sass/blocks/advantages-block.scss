@@ -56,16 +56,32 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .advantages-block {
+    margin-bottom: 5px;
+  }
+
   .advantages-block li {
     width: 354px;
     min-height: 306px;
-    padding: 30px;
-    margin: 15px;
+    padding: 20px 0 0 15px;
+    margin: 15px 15px 10px;
+  }
+
+  .advantages-block--bottom li {
+    min-height: 222px;
   }
 
   .advantages-block h4 {
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+
+  .advantages-block p {
     margin-top: 10px;
-    margin-bottom: 15px;
+  }
+
+  .advantages-block--bottom {
+    margin-top: 0;
   }
 }
 
