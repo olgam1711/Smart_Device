@@ -7,11 +7,15 @@
   list-style-type: none;
 }
 
+.advantages-block--bottom {
+  margin-top: 28px;
+}
+
 .advantages-block li {
-  width: 482px;
-  min-height: 370px;
+  width: 570px;
+  min-height: 300px;
   padding: 40px;
-  margin: 30px;
+  padding-bottom: 0px;
 
   color: #666666;
 
@@ -25,7 +29,11 @@
 }
 
 .advantages-block h4 {
-  font-size: 24px;
+  margin-top: 14px;
+  margin-bottom: 15px;
+
+
+  font-size: 20px;
   line-height: 34px;
   color: #00b2ff;
 }
@@ -34,7 +42,7 @@
   min-width: 320px;
 
   font-family: "PT Mono", sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 22px;
 }
 
