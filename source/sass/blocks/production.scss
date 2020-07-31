@@ -45,12 +45,19 @@
   .production {
     margin-right: 0;
     margin-left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .production img {
-    width: 500px;
-    height: 315px;
+    width: 715px;
+    height: 255px;
+  }
+
+  .production h3 {
+    top: 28px;
+    left: 42px;
+
+    text-align: left;
   }
 }
 
