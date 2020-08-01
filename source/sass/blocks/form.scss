@@ -51,8 +51,12 @@
   }
 
   .form__textarea {
-    width: 90%;
-    min-width: 260px;
+    width: 85%;
+    min-width: 240px;
+    max-height: 89px;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 22px;
   }
 
   .form__footer {
@@ -62,6 +66,9 @@
   .form__agreement label {
     display: inherit;
     padding-left: 10%;
-    margin-top: 30px;
+    margin-top: 25px;
+
+    font-size: 15px;
+    letter-spacing: 1px;
   }
 }

@@ -31,8 +31,9 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .feedback-form__input {
-    width: 90%;
-    margin-bottom: 20px;
+    width: 85%;
+    margin-bottom: 24px;
+    padding: 20px;
   }
 
   .feedback-form__input--name {
