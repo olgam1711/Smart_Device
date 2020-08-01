@@ -3,3 +3,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .title img {
+    width: 30px;
+    height: 32px;
+  }
+}

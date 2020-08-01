@@ -55,3 +55,13 @@
     padding-top: 21px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .header {
+    padding-bottom: 72px;
+  }
+
+  .header__top {
+    padding: 17px 15px 0;
+  }
+}

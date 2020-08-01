@@ -98,14 +98,15 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .promo-text {
-    margin-top: 100px;
-    padding-left: 20px;
+    margin-top: 34px;
+    padding-left: 15px;
   }
 
   .promo-text h1 {
     position: relative;
     z-index: 1;
 
+    max-width: 150px;
     margin-right: 30%;
 
     font-size: 40px;
@@ -113,11 +114,16 @@
   }
 
   .promo-text p {
-    min-width: 0;
+    padding-left: 53px;
+    max-width: 245px;
+
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .promo-text__link {
     margin-left: 0;
+    margin-top: 40px;
     padding-left: 40px;
   }
 
@@ -127,7 +133,7 @@
 
   .promo-text__link--mobile {
     display: inline-block;
-    padding: 16px 11px;
+    padding: 16px 29px;
   }
 
   .promo-text p::before {
