@@ -15,7 +15,13 @@
 
 .button--feedback {
   min-width: 276px;
-  margin-right: 60px;
+  margin-right: 79px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .button--feedback {
+    padding: 13px 24px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

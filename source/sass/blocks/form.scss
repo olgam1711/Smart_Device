@@ -32,7 +32,15 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .form__textarea {
-    min-width: 100%;
+    min-width: 97%;
+    margin-bottom: 21px;
+    padding: 20px;
+
+    box-sizing: border-box;
+  }
+
+  .form__block {
+    margin-bottom: 43px;
   }
 }
 

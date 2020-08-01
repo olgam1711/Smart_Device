@@ -5,8 +5,8 @@
   top: 5px;
   left: -25px;
 
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
 
   background-image: url("../img/checkbox.svg");
 
@@ -19,8 +19,14 @@
   top: 2px;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .checkbox + label::after {
+    left: -31px;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .checkbox + label::after {
-    left: -0;
+    left: 0;
   }
 }

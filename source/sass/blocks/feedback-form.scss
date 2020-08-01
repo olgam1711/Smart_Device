@@ -15,9 +15,17 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .feedback-form__input {
+    padding: 20px;
+  }
+
   .feedback-form__input--name,
   .feedback-form__input--tel {
-    min-width: 45%;
+    min-width: 41%;
+  }
+
+  .feedback-form__input--name {
+    margin-right: 30px;
   }
 }
 
