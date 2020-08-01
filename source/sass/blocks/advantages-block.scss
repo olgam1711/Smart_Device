@@ -94,16 +94,22 @@
     width: 290px;
     min-height: 210px;
     padding: 20px;
+    padding-bottom: 12px;
     margin: 20px 15px;
   }
 
   .advantages-block h4 {
-    font-size: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
+
+    font-size: 18px;
   }
 
   .advantages-block p {
     min-width: 250px;
+    margin-top: 10px;
+
+    letter-spacing: 1px;
+    line-height: 21px;
   }
 }
