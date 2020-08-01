@@ -40,6 +40,12 @@
   transform: rotate(-90deg);
 }
 
+@media (min-width: 320px) and (max-width: 1023px) {
+  .header__link {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .header {
     padding-bottom: 163px;
@@ -47,11 +53,5 @@
 
   .header__top {
     padding-top: 21px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 1023px) {
-  .header__link {
-    display: none;
   }
 }

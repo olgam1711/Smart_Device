@@ -19,6 +19,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .rights {
+    padding-top: 9px;
+
+    font-size: 13px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

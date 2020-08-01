@@ -32,3 +32,13 @@
     margin-top: 29px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .description__list a {
+    font-size: 16px;
+  }
+
+  .description__list--first {
+    margin-top: 27px;
+  }
+}
