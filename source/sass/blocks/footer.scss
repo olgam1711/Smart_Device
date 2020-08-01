@@ -46,7 +46,17 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    padding-top: 50px;
+  }
+
   .footer__bottom {
     display: block;
+  }
+
+  .footer h3 {
+    margin-bottom: 7px;
+
+    line-height: 25px;
   }
 }
