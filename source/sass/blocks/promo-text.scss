@@ -17,8 +17,6 @@
 }
 
 .promo-text p {
-  position: relative;
-
   margin: 0;
   padding-left: 99px;
   max-width: 570px;
@@ -28,18 +26,6 @@
   text-align: left;
   letter-spacing: 1px;
   line-height: 30px;
-}
-
-.promo-text p::before {
-  position: absolute;
-  content: "";
-  left: 5px;
-  top: 10px;
-
-  width: 63px;
-  height: 2px;
-
-  background-image: url("../img/line.svg");
 }
 
 .promo-text__link {
@@ -64,13 +50,11 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .promo-text {
-    min-width: 475px;
+    min-width: 345px;
   }
 
   .promo-text h1 {
     max-width: 300px;
-    margin-left: 60px;
-    margin-right: 0;
 
     font-size: 60px;
     line-height: 70px;
@@ -78,21 +62,16 @@
 
   .promo-text__link {
     padding: 17px;
-    margin-top: 50px;
-    margin-left: 111px;
+    margin-top: 36px;
+    margin-left: 0;
+
+    font-size: 15px;
   }
 
   .promo-text p {
-    padding-left: 115px;
+    padding-left: 0;
 
     font-size: 19px;
-  }
-
-  .promo-text p::before {
-    left: 65px;
-    top: 15px;
-
-    width: 33px;
   }
 }
 
@@ -114,7 +93,7 @@
   }
 
   .promo-text p {
-    padding-left: 53px;
+    padding-left: 0;
     max-width: 245px;
 
     font-size: 16px;

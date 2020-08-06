@@ -9,11 +9,6 @@
 .promo img {
   padding-left: 20px;
   padding-right: 20px;
-
-  background-image: url("../img/two-triangles.svg");
-  background-size: 977px 931px;
-  background-position: -545px -208px;
-  background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -26,8 +21,6 @@
     height: 305px;
     margin-left: 10px;
     padding: 0 0 25px;
-
-    background-position: -581px -208px;
   }
 }
 
@@ -43,8 +36,5 @@
     height: 220px;
     top: 35px;
     right: -27px;
-
-    background-size: 500px 436px;
-    background-position: -111px -87px;
   }
 }
