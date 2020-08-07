@@ -1,6 +1,4 @@
 .footer {
-  padding-top: 9px;
-
   color: #1b2d37;
 
   background-color: #fafafa;
@@ -18,7 +16,7 @@
 
 .footer__top {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
 }
 

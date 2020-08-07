@@ -22,13 +22,9 @@
   border-radius: 5px;
 }
 
-.callback img {
-  margin-left: 45px;
-}
-
 @media (min-width: 320px) and (max-width: 1023px) {
   .callback {
-    min-width: 70px;
+    min-width: 100px;
   }
 
   .callback a {

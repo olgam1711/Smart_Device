@@ -9,14 +9,20 @@
 
 .description__list {
   padding: 0;
-  margin-right: 243px;
+  margin-right: 80px;
 
   list-style-type: none;
   line-height: 23px;
 }
 
+.description__list a {
+  font-size: 16px;
+  color: #1b2d37;
+  text-decoration: none;
+}
+
 .description__list--first {
-  margin-right: 118px;
+  margin-right: 40px;
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
@@ -29,7 +35,7 @@
   }
 
   .description__list--first {
-    margin-top: 29px;
+    margin-top: 10px;
   }
 }
 

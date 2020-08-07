@@ -1,38 +1,34 @@
 .promo-text {
-  min-width: 765px;
+  min-width: 555px;
   padding-top: 43px;
+  padding-left: 20px;
 
   color: #ffffff;
 }
 
 .promo-text h1 {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
   font-weight: bold;
-  font-size: 80px;
+  font-size: 60px;
   line-height: 96px;
   text-transform: uppercase;
-  letter-spacing: -1px;
 }
 
 .promo-text p {
   margin: 0;
-  padding-left: 99px;
-  max-width: 570px;
+  max-width: 400px;
 
   font-size: 22px;
-  font-family: "PT Mono", sans-serif;
   text-align: left;
-  letter-spacing: 1px;
   line-height: 30px;
 }
 
 .promo-text__link {
   display: inline-block;
   padding: 16px 34px;
-  margin-top: 47px;
-  margin-left: 100px;
+  margin-top: 30px;
   vertical-align: middle;
 
   text-transform: uppercase;
@@ -54,8 +50,6 @@
   }
 
   .promo-text h1 {
-    max-width: 300px;
-
     font-size: 60px;
     line-height: 70px;
   }
