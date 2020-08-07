@@ -8,10 +8,6 @@
   list-style-type: none;
 }
 
-.contacts__button {
-  display: none;
-}
-
 @media (min-width: 768px) and (max-width: 1023px) {
   .contacts {
     margin-right: 87px;
@@ -20,37 +16,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .contacts {
-    position: relative;
-
     padding-top: 11px;
     padding-left: 15px;
-  }
-
-  .contacts--closed .contacts__list {
-    display: none;
-  }
-
-  .contacts__button {
-    position: absolute;
-    content: "";
-    top: 42px;
-    right: 4px;
-
-    display: initial;
-    width: 30px;
-    height: 20px;
-
-    background-image: url("../img/minus.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-color: transparent;
-    border: none;
-  }
-
-  .contacts--closed .contacts__button {
-    background-image: url("../img/plus.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-color: transparent;
   }
 }
