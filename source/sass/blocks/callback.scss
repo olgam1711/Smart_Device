@@ -9,6 +9,14 @@
   text-decoration: none;
 }
 
+.callback a:hover {
+  opacity: 0.2;
+}
+
+.callback a:active {
+  opacity: 0.6;
+}
+
 .callback__element--call {
   padding: 10px 24px;
   margin-right: 0;

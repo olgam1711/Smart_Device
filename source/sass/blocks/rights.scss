@@ -10,6 +10,14 @@
   text-decoration: none;
 }
 
+.rights__link:hover {
+  opacity: 0.5;
+}
+
+.rights__link:active {
+  opacity: 0.2;
+}
+
 .rights__credits {
   display: flex;
 }

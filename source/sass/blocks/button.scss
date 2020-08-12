@@ -19,6 +19,14 @@
   margin-right: 50px;
 }
 
+.button--feedback:hover {
+  opacity: 0.8;
+}
+
+.button--feedback:active {
+  opacity: 0.5;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .button--feedback {
     padding: 13px 24px;

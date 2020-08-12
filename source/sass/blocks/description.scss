@@ -21,6 +21,14 @@
   text-decoration: none;
 }
 
+.description__list a:hover {
+  opacity: 0.5;
+}
+
+.description__list a:active {
+  opacity: 0.2;
+}
+
 .description__list--first {
   margin-right: 40px;
 }

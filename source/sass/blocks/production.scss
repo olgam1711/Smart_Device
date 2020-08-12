@@ -28,6 +28,14 @@
   opacity: 0.2;
 }
 
+.production img:hover {
+  opacity: 0.6;
+}
+
+.production img:active {
+  opacity: 0.4;
+}
+
 .production svg {
   position: absolute;
   content: "";

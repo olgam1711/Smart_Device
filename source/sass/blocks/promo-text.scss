@@ -40,6 +40,14 @@
   border-radius: 5px;
 }
 
+.promo-text__link:hover {
+  opacity: 0.8;
+}
+
+.promo-text__link:active {
+  opacity: 0.5;
+}
+
 .promo-text__link--mobile {
   display: none;
 }

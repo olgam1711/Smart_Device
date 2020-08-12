@@ -12,6 +12,14 @@
   margin-right: 0;
 }
 
+.social__element:hover {
+  opacity: 0.5;
+}
+
+.social__element:active {
+  opacity: 0.2;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .social {
     align-items: center;

@@ -30,11 +30,20 @@
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #00b2ff;
 
   border: 1px solid #00b2ff;
   box-sizing: border-box;
   border-radius: 5px;
+}
+
+.about-company__link:hover {
+  opacity: 0.6;
+}
+
+.about-company__link:active {
+  opacity: 0.2;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
